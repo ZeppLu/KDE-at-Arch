@@ -45,3 +45,5 @@ TODO
 - [ ] latte-dock settings backup
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
 - [ ] global menu for GTK apps, mainly chrome and vscode
+- [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
+- [ ] kinetic scrolling with libinput
