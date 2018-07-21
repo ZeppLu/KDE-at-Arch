@@ -34,6 +34,12 @@ Fix terrible old-style cursor shown on titlebar:
 Inherits=breeze_cursors
 ```
 
+Input Device
+-------------
+If you want to activate applications launcher simply by pressing <kbd>Win</kbd>, just as what you do on Windows,
+- When using Latte-Dock, have a look at [here](https://github.com/psifidotos/Latte-Dock/wiki/F.A.Q.).
+- When using plasma dock, set it's shortcut to <kbd>Alt</kbd>+<kbd>F1</kbd>.
+
 TODO
 ---------
 - [ ] latte-dock settings backup
