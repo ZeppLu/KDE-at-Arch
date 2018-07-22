@@ -2,6 +2,7 @@ KDE-at-Arch
 =============
 Random notes on how to tune KDE on Arch Linux.
 
+
 Appearance
 -----------
 
@@ -33,6 +34,10 @@ Fix terrible old-style cursor shown on titlebar:
 #Inherits=Adwaita
 Inherits=breeze_cursors
 ```
+
+#### Top Panel
+Latte Dock + Active Window Control
+
 
 Control
 ------------
