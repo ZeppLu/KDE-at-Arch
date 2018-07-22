@@ -2,12 +2,13 @@ KDE-at-Arch
 =============
 Random notes on how to tune KDE on Arch Linux.
 
-Font
-----------
+Appearance
+-----------
+
+#### Font
 See [here](https://github.com/ZeppLu/rcs/blob/master/config/fontconfig/fonts.conf).
 
-HiDPI
------------
+#### HiDPI
 Set your favorite scaling factor in `System Settings -> Display and Monitor -> Displays -> Scale Display`.
 
 Notes that non-integer scaling factor will bring some issues, including:
@@ -24,8 +25,7 @@ For SDDM, the following config makes it work well (from [Arch Wiki](https://wiki
 ServerArguments=-nolisten tcp -dpi 166  # calculate your screen's real DPI on http://www.pxcalc.com and paste it here
 ```
 
-Cursor
--------------
+#### Cursor
 Fix terrible old-style cursor shown on titlebar:
 ```conf
 # /usr/share/icons/default/index.theme
@@ -34,16 +34,25 @@ Fix terrible old-style cursor shown on titlebar:
 Inherits=breeze_cursors
 ```
 
-Input Device
--------------
+Control
+------------
+
+#### Input Device
 If you want to activate applications launcher simply by pressing <kbd>Win</kbd>, just as what you do on Windows,
 - When using Latte-Dock, have a look at [here](https://github.com/psifidotos/Latte-Dock/wiki/F.A.Q.).
 - When using plasma dock, set it's shortcut to <kbd>Alt</kbd>+<kbd>F1</kbd>.
+
+#### Global Menu
+Global menu works seamlessly on Qt apps. For others like VSCode and Chrome, install these packages then re-login, though I don't know which one actually do the job:
+```sh
+sudo pacman -S appmenu-gtk-module libdbusmenu-{glib,gtk{2,3}}
+```
+
 
 TODO
 ---------
 - [ ] latte-dock settings backup
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
-- [ ] global menu for GTK apps, mainly chrome and vscode
+- [ ] global menu for GTK apps, libreoffice?
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
