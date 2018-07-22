@@ -61,4 +61,4 @@ TODO
 - [ ] global menu for GTK apps, libreoffice?
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
-- [ ] blue line between titlebar and mainwindow
+- [ ] blue line between titlebar and mainwindow (follow [this link](http://www.alexl.netsons.org/78/#comment-643)).
