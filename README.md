@@ -56,9 +56,10 @@ sudo pacman -S appmenu-gtk-module libdbusmenu-{glib,gtk{2,3}}
 
 TODO
 ---------
-- [ ] latte-dock settings backup
+- [ ] latte-dock settings upload, where settings of plasmoids have been included
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
 - [ ] global menu for GTK apps, libreoffice?
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
 - [ ] blue line between titlebar and mainwindow (follow [this link](http://www.alexl.netsons.org/78/#comment-643)).
+- [ ] shortcuts configurations upload
