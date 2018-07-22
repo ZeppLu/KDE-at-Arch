@@ -36,7 +36,7 @@ Inherits=breeze_cursors
 ```
 
 #### Top Panel
-Latte Dock + Active Window Control
+Latte Dock + 3x Active Window Control (1 for application title, 1 for double click to maximize/restore control, 1 for buttons control).
 
 
 Control
@@ -61,3 +61,4 @@ TODO
 - [ ] global menu for GTK apps, libreoffice?
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
+- [ ] blue line between titlebar and mainwindow
