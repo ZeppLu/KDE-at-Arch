@@ -38,6 +38,9 @@ Inherits=breeze_cursors
 #### Top Panel
 Latte Dock + 3x Active Window Control (1 for application title, 1 for double click to maximize/restore control, 1 for buttons control).
 
+#### Title Bar
+To get a more integrated title bar, follow [this instruction](http://www.alexl.netsons.org/78). To remove the blue horizontal line between title bar and windows, head to `System Settings -> Application Style -> Window Decorations -> Theme -> Configure Breeze` and uncheck a self-explained option.
+
 
 Control
 ------------
@@ -63,6 +66,5 @@ TODO
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
-- [ ] blue line between titlebar and mainwindow (follow [this link](http://www.alexl.netsons.org/78/#comment-643)).
 - [ ] shortcuts configurations upload
 - [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
