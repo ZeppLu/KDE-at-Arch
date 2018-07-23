@@ -1,0 +1,12 @@
+[Force Border on Netease Cloud Music]
+Description=Force Border on Netease Cloud Music
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=I Can't Tell You Why - Eagles — Cloud Music
+titlematch=0
+types=1
+wmclass=netease-cloud-music
+wmclasscomplete=false
+wmclassmatch=1

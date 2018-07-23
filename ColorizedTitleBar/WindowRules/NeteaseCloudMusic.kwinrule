@@ -1,0 +1,12 @@
+[Netease Cloud Music]
+Description=Netease Cloud Music
+clientmachine=localhost
+clientmachinematch=0
+decocolor=MyBreezeNeteaseCloudMusic
+decocolorrule=2
+title=I Can't Tell You Why - Eagles — Cloud Music
+titlematch=0
+types=1
+wmclass=netease-cloud-music
+wmclasscomplete=false
+wmclassmatch=1
