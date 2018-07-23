@@ -41,6 +41,10 @@ Latte Dock + 3x Active Window Control (1 for application title, 1 for double cli
 #### Title Bar
 To get a more integrated title bar, follow [this instruction](http://www.alexl.netsons.org/78). To remove the blue horizontal line between title bar and windows, head to `System Settings -> Application Style -> Window Decorations -> Theme -> Configure Breeze` and uncheck a self-explained option.
 
+#### Window Decoration
+If an application ask KWin not to draw decoration for it, aka Client Side Decoration, KWin will not draw ANY decoration, including shadow around it. So it will look extremely ugly if the application doesn't do its job well, in this case we can create a window rule to forcefully draw decoration for it, see `ForceBorderNCM.kwinrule` for example.
+
+But there's a known bug: close button on system title bar cannot close NCM correctly, so we need to kill it manually, which is just annoying.
 
 Control
 ------------
@@ -68,3 +72,4 @@ TODO
 - [ ] kinetic scrolling with libinput
 - [ ] shortcuts configurations upload
 - [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
+- [ ] fix netease cloud music (close button)
