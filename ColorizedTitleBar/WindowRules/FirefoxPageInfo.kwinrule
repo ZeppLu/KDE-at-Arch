@@ -1,0 +1,14 @@
+[Firefox Page Info]
+Description=Firefox Page Info
+clientmachine=envy13
+clientmachinematch=0
+decocolor=MyBreezeFirefoxPageInfo
+decocolorrule=2
+title=Page Info - https://www.wikipedia.org/
+titlematch=0
+types=1
+windowrole=page-info
+windowrolematch=1
+wmclass=browser firefox
+wmclasscomplete=true
+wmclassmatch=1

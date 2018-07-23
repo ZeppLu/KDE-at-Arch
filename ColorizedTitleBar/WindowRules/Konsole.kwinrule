@@ -1,0 +1,16 @@
+[Konsole Mainwindow]
+Description=Konsole Mainwindow
+clientmachine=localhost
+clientmachinematch=0
+decocolor=MyBreezeKonsole
+decocolorrule=2
+opacityactive=88
+opacityactiverule=2
+title=zepp : bash — Konsole
+titlematch=0
+types=1
+windowrole=mainwindow
+windowrolematch=2
+wmclass=konsole
+wmclasscomplete=false
+wmclassmatch=2

@@ -1,0 +1,14 @@
+[Firefox About Dialog]
+Description=Firefox About Dialog
+clientmachine=envy13
+clientmachinematch=0
+decocolor=MyBreezeFirefoxAbout
+decocolorrule=2
+title=About Mozilla Firefox
+titlematch=0
+types=1
+windowrole=about
+windowrolematch=1
+wmclass=browser firefox
+wmclasscomplete=true
+wmclassmatch=1

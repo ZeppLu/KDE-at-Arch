@@ -1,0 +1,14 @@
+[Firefox Developer Tools]
+Description=Firefox Developer Tools
+clientmachine=envy13
+clientmachinematch=0
+decocolor=MyBreezeFirefoxDevTools
+decocolorrule=2
+title=Developer Tools - Firefox Page Info window | Firefox Help - https://support.mozilla.org/en-US/kb/firefox-page-info-window?redirectlocale=en-US&as=u&redirectslug=Page+Info+window&utm_source=inproduct#Security
+titlematch=0
+types=1
+windowrole=toolbox
+windowrolematch=1
+wmclass=devtools firefox
+wmclasscomplete=true
+wmclassmatch=1
