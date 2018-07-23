@@ -62,7 +62,7 @@ In order to instruct Dolphin to mount disk partitions without requiring root pri
 
 TODO
 ---------
-- [ ] latte-dock settings upload, where settings of plasmoids have been included
+- [ ] upload configurations, including latte-dock settings, customized color schemes
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
