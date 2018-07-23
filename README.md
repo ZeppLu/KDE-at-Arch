@@ -48,7 +48,7 @@ If you want to activate applications launcher simply by pressing <kbd>Win</kbd>,
 - When using plasma dock, set it's shortcut to <kbd>Alt</kbd>+<kbd>F1</kbd>.
 
 #### Global Menu
-Global menu works seamlessly on Qt apps. For others like VSCode and Chrome, install these packages then re-login, though I don't know which one actually do the job:
+Global menu works seamlessly on Qt apps. For others like VSCode, Chrome and LibreOffice, install these packages then re-login, though I don't know which one actually do the job:
 ```sh
 sudo pacman -S appmenu-gtk-module libdbusmenu-{glib,gtk{2,3}}
 ```
@@ -61,8 +61,8 @@ TODO
 ---------
 - [ ] latte-dock settings upload, where settings of plasmoids have been included
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
-- [ ] global menu for GTK apps, libreoffice?
 - [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
 - [ ] kinetic scrolling with libinput
 - [ ] blue line between titlebar and mainwindow (follow [this link](http://www.alexl.netsons.org/78/#comment-643)).
 - [ ] shortcuts configurations upload
+- [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
