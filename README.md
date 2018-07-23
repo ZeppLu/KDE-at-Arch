@@ -53,6 +53,9 @@ Global menu works seamlessly on Qt apps. For others like VSCode and Chrome, inst
 sudo pacman -S appmenu-gtk-module libdbusmenu-{glib,gtk{2,3}}
 ```
 
+#### File Manager
+In order to instruct Dolphin to mount disk partitions without requiring root privilege, fisrt `usermod "$USER" -G storage --append` then put [this configuration](https://gist.github.com/Scrumplex/8f528c1f63b5f4bfabe14b0804adaba7) into `/etc/polkit-1/rules.d/`.
+
 
 TODO
 ---------
