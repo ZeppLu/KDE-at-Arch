@@ -46,6 +46,9 @@ If an application ask KWin not to draw decoration for it, aka Client Side Decora
 
 But there's a known bug: close button on system title bar cannot close NCM correctly, so we need to kill it manually, which is just annoying.
 
+PS: for GNOME apps, there is a package `gtk3-no-csd-git` on AUR to help disable CSD automatically (haven't confirmed).
+
+
 Control
 ------------
 
@@ -73,4 +76,3 @@ TODO
 - [ ] shortcuts configurations upload
 - [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
 - [ ] fix netease cloud music (close button)
-- [ ] try out [gtk3-nocsd](https://aur.archlinux.org/packages/gtk3-nocsd-git/) to fix applications using client side decoration
