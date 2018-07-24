@@ -73,3 +73,4 @@ TODO
 - [ ] shortcuts configurations upload
 - [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
 - [ ] fix netease cloud music (close button)
+- [ ] try out [gtk3-nocsd](https://aur.archlinux.org/packages/gtk3-nocsd-git/) to fix applications using client side decoration
