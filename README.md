@@ -71,7 +71,7 @@ TODO
 ---------
 - [ ] upload configurations, including latte-dock settings, customized color schemes
 - [ ] theme, including workspace, titlebar, icon (take a look at [this](https://www.reddit.com/r/unixporn/comments/8uhjzk/kde_plasma/))
-- [ ] fonts (incorrect serif chinese font in chrome, ugly chinese font in konsole)
+- [ ] fonts (incorrect serif chinese font in chrome)
 - [ ] kinetic scrolling with libinput
 - [ ] shortcuts configurations upload
 - [ ] fine-tuning of the top panel (how to make title always locate at the center, at the same time don't shadow the global menu?)
