@@ -11,3 +11,11 @@ It's recommended to set hardware clock to use UTC, and let Windows be aware of i
 
 Locale defaults to C in Arch, set it manually by `sudo localectl set-locale LANG=en_US.UTF-8`.
 
+
+Multimedia
+---------
+[mpv](https://mpv.io) is recommended for its efficiency.
+
+To make it controllable by Fn keys as well as plasma media control, install [mpv-mpris](https://aur.archlinux.org/packages/mpv-mpris) from AUR.
+
+TODO: config
