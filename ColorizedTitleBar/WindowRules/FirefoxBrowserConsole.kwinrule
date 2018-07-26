@@ -1,0 +1,14 @@
+[Firefox Browser Console]
+Description=Firefox Browser Console
+clientmachine=envy13
+clientmachinematch=0
+decocolor=MyBreezeFirefoxBrowerConsole
+decocolorrule=2
+title=Browser Console
+titlematch=0
+types=1
+windowrole=webconsole
+windowrolematch=1
+wmclass=devtools firefox
+wmclasscomplete=true
+wmclassmatch=1
