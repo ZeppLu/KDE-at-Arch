@@ -1,0 +1,9 @@
+[WeWeChat]
+Description=WeWeChat
+clientmachine=envy13
+clientmachinematch=0
+decocolor=MyBreezeWeWeChat
+decocolorrule=2
+wmclass=wewechat
+wmclasscomplete=false
+wmclassmatch=1
