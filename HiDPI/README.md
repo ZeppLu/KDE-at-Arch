@@ -5,7 +5,7 @@ First of all, enable scaling in the Displays section of System Settings.
 
 Konsole
 -------------
-Annoying transparent horizontal lines, so we should force it not to use display scaling by running `fix-konsole.bash`.
+~~Annoying transparent horizontal lines, so we should force it not to use display scaling by running `fix-konsole.bash`.~~ The issue should have been fixed, update your video driver to check. If not, you can try the script.
 
 Netease Cloud Music
 -------------
