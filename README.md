@@ -10,14 +10,14 @@ Appearance
 See [here](https://github.com/ZeppLu/rcs/blob/master/config/fontconfig/fonts.conf).
 
 #### HiDPI
-Set your favorite scaling factor in `System Settings -> Display and Monitor -> Displays -> Scale Display`.
+Set your favorite scaling factor in `System Settings -> Display and Monitor -> Displays -> Scale Display`. Before you continue, please ensure you've install the correct driver (`xf86-video-intel` for example), **DO NOT** use mesa!
 
-Notes that non-integer scaling factor will bring some issues, including:
-1. Some icons in some apps appears blurry.
-2. Some text in some apps appears mis-positioned.
-3. Konsole and Yaquake show transperent horizontal lines randomly.
+~~Notes that non-integer scaling factor will bring some issues, including:~~
+1. ~~Some icons in some apps appears blurry.~~
+2. ~~Some text in some apps appears mis-positioned.~~
+3. ~~Konsole and Yaquake show transperent horizontal lines randomly.~~
 
-Generally speaking, 1 and 2 are quite rare (compared to Windows), but 3 is just annoying. It's known as [a bug](https://bugs.kde.org/show_bug.cgi?id=373232) and seems being worked on. If you can't afford those ugly lines, [this dirty trick](https://gist.github.com/ZeppLu/637353565e5be6b8275a859f7c412f8c) may help.
+~~Generally speaking, 1 and 2 are quite rare (compared to Windows), but 3 is just annoying. It's known as [a bug](https://bugs.kde.org/show_bug.cgi?id=373232) and seems being worked on. If you can't afford those ugly lines, [this dirty trick](https://gist.github.com/ZeppLu/637353565e5be6b8275a859f7c412f8c) may help.~~
 
 For SDDM, the following config makes it work well (from [Arch Wiki](https://wiki.archlinux.org/index.php/SDDM#DPI_settings)).
 ```conf
